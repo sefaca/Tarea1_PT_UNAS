@@ -30,6 +30,7 @@ if ($_POST) {
 </head>
 <body>
     <h1>Add Product</h1>
+    <a href="index.php">Back to Product List</a>
     <form action="add_product.php" method="POST">
         <label for="name">Name</label>
         <input type="text" name="name" required><br>
