@@ -46,6 +46,7 @@ if ($_POST) {
 </head>
 <body>
     <h1>Edit Product</h1>
+    <a href="index.php">Back to Product List</a>
     <form action="edit_product.php?id=<?php echo $product->id; ?>" method="POST">
         <label for="name">Name</label>
         <input type="text" name="name" value="<?php echo htmlspecialchars($prodData['name']); ?>" required><br>
@@ -58,6 +59,5 @@ if ($_POST) {
 
         <button type="submit">Update Product</button>
     </form>
-    <a href="index.php">Back to Product List</a>
 </body>
 </html>
