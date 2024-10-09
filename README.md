@@ -54,6 +54,7 @@ class Database {
         return $this->conn;
     }
 }
+?>
 ```
 
 ## Paso 4: Ejecutar la aplicación
